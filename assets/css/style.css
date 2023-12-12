@@ -15,10 +15,6 @@ ul{
 height: 200px;
 }
 
-.col-2{
-    height: 2px;
-    background-color: red;
-}
 
 .bar{
     height: 5px;
@@ -34,4 +30,8 @@ height: 200px;
     background-color: #2c3e50;
     margin-inline: 10px;
     border-radius: 8px;
+}
+
+.container-fluid.grey{
+    background-color: #3a546d;
 }
