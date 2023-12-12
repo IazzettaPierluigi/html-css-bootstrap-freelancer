@@ -19,3 +19,12 @@ height: 200px;
     height: 2px;
     background-color: red;
 }
+
+.bar{
+    height: 5px;
+    width: 50%;
+    background-color: white;
+    margin-inline: 10px;
+    border-radius: 8px;
+}
+
