@@ -3,3 +3,19 @@ ul{
     list-style: none;
     text-transform: uppercase;
 }
+
+.container-fluid.green{
+  
+    background-color: #1abc9c;
+}
+
+.figure img{
+    width: 100%;
+
+height: 200px;
+}
+
+.col-2{
+    height: 2px;
+    background-color: red;
+}
