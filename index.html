@@ -15,31 +15,66 @@
 </head>
 <body>
     <header class="bg-primary">
-
-        <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="container">
             <div class="row d-flex justify-content-between aling-items-center">
     
-                <div class="col mx-auto p-2"><h1 class="fs-1">start bootstrap</h1></div>
+                <div class="col mx-auto p-2"><h1 class="fs-1 text-white">start bootstrap</h1></div>
                 <div class="col text-end d-none d-sm-block mx-auto p-2">
-                    <ul class="container-fluid d-flex align-items-center">
+                    <ul class="container-fluid d-flex align-items-center text-white">
                         <div class="row align-items-center">
 
-                            <li class="col-4 text-center fs-4 ">portfolio</li>
-                            <li class="col-4 text-center fs-4">about</li>
-                            <li class="col-4 text-center fs-4">contact</li>
+                            <li class="col-4 text-center fs-5 ">portfolio</li>
+                            <li class="col-4 text-center fs-5">about</li>
+                            <li class="col-4 text-center fs-5">contact</li>
                         </div>
                     </ul>
                 </div>
                 <div class="col text-end d-sm-none">
                     <i class="fa-solid fa-bars col text-end"></i>
                 </div>
-            </div>
+            </div> -->
     </header>
     </div>
 
     <main>
         <!-- section1  -->
-        <div class="container-fluid green py-4">
+        <div class="container-fluid green py-4 text-white">
             <div class="row justify-content-center">
                 <div class="col-8 container-fluid">
                     <div class="row justify-content-center">
@@ -78,7 +113,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 text-center text-uppercase"><h1>portfolio</h1></div>
                 
-                <div class="col-sm-9 col-lg-9 text-center d-flex align-items-center justify-content-center">
+                <div class="col-sm-9 col-lg-9 text-center d-flex align-items-center justify-content-center mb-2">
                     <div class="bar-blu"></div>
                     <i class="fa-solid fa-star fs-2"></i>
                     <div class="bar-blu"></div>
